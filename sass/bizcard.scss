@@ -1,0 +1,19 @@
+.bizcard {
+	background-color: red	;
+	text-align: center;
+	padding: 30px;
+	width: 800px;
+	height: 150px;
+	border: 5px solid blue;
+	display: flex;
+}
+.bizcard .content {
+	flex: 4;
+	text-align: left;
+}
+.bizcard .links {
+	flex: 2	;
+}
+.bizcard .links ul > li{
+	list-style-type: none;
+}
