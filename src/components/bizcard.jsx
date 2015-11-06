@@ -24,9 +24,9 @@ module.exports = React.createClass({
 				</div>
 				<div className="links">
 					<ul>
-						<li><a href="https:///github.com/wensontsai">github</a></li>
-						<li><a href="https://twitter.com/itswenson">twitter</a></li>
-						<li><a href="">?????</a></li>
+						<li><a href="https:///github.com/wensontsai">Github</a></li>
+						<li><a href="https://twitter.com/itswenson">Twitter</a></li>
+						<li><a href="https://bumbify.herokuapp.com">Bumbify</a></li>
 					</ul>
 				</div>
 			</div>
