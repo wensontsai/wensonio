@@ -10,11 +10,16 @@
 .bizcard .content {
 	flex: 5;
 	text-align: left;
+	margin: auto 0;
 }
 .bizcard .links {
 	flex: 1;
 	text-align: left;
+	margin: auto 0;
 }
 .bizcard .links ul > li{
 	list-style-type: none;
+}
+.bizcard .name {
+	color: navy;
 }

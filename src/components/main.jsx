@@ -21,7 +21,6 @@ module.exports = React.createClass({
 		return(
 			<div className="pageCenter">
 				<div className="main"> 
-					i'm crying i'm dying.
 					<BizCard />
 					<Wigout />
 				</div>

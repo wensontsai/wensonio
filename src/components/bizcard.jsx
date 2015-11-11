@@ -1,4 +1,5 @@
 var React = require('react');
+
 var Reflux = require('reflux');
 
 var Actions = require('../actions');
@@ -19,14 +20,14 @@ module.exports = React.createClass({
 		return(
 			<div className="bizcard">
 				<div className="content">
-					<p>Wenson Tsai</p>
+					<h3 className="name">Wenson Tsai</h3>
 					<p>Fullstack Software Engineer / Developer / Musician</p>
 				</div>
 				<div className="links">
 					<ul>
-						<li><a href="https:///github.com/wensontsai">Github</a></li>
-						<li><a href="https://twitter.com/itswenson">Twitter</a></li>
-						<li><a href="https://bumbify.herokuapp.com">Bumbify</a></li>
+						<li><a href="https:///github.com/wensontsai" target="blank">Github</a></li>
+						<li><a href="https://linkedin.com/in/wensontsai" target="blank">LinkedIn</a></li>
+						<li><a href="https://twitter.com/itswenson" target="blank">Twitter</a></li>
 					</ul>
 				</div>
 			</div>
