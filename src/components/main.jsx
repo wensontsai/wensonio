@@ -3,6 +3,7 @@ var Reflux = require('reflux');
 var BizCard = require('./bizcard');
 var Wigout = require('./wigout');
 
+
 var Actions = require('../actions');
 
 module.exports = React.createClass({
@@ -20,6 +21,8 @@ module.exports = React.createClass({
 	render: function(){
 		return(
 			<div className="pageCenter">
+				<video muted autoPlay id="bgvid" src="../../endless_planet.mp4"loop>
+				</video>
 				<div className="main"> 
 					<BizCard />
 					<Wigout />
