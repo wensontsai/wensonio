@@ -1,10 +1,9 @@
 .bizcard {
-	background-color: beige;
+	background-color: #FFF8DC;
 	text-align: center;
 	padding: 30px;
 	width: 800px;
 	height: 150px;
-	/* border: 3px solid black; */
 	display: flex;
 }
 .bizcard .content {
@@ -16,6 +15,12 @@
 	flex: 1;
 	text-align: left;
 	margin: auto 0;
+}
+.bizcard .links a:focus,
+.bizcard .links a:hover{
+	color: #D44942;
+	background-color: #FFF8DC;
+	text-decoration: none;
 }
 .bizcard .links ul > li{
 	list-style-type: none;
