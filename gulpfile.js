@@ -137,7 +137,7 @@ function bundle() {
     .bundle()
     .on('error', notify)
     .pipe(source('main.js'))
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./public/'))
 }
 bundler.on('update', bundle)
 
@@ -166,7 +166,7 @@ gulp.task('sass', function () {
   gulp.src('./sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('style.css'))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./public/'));
 });
 
 gulp.task('default', ['build', 'serve', 'sass', 'watch']);
