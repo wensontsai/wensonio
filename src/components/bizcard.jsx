@@ -20,8 +20,7 @@ module.exports = React.createClass({
 		return(
 			<div className="bizcard">
 				<div className="content">
-					<h3 className="name">Wenson Tsai</h3>
-					<p>Fullstack Software Engineer / Developer / Musician</p>
+
 				</div>
 				<div className="links">
 					<ul>

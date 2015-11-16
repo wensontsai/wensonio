@@ -1,6 +1,8 @@
 var React = require('react');
 var Reflux = require('reflux');
 
+var Charty = require('./charty');
+
 var Actions = require('../actions');
 
 module.exports = React.createClass({
@@ -18,7 +20,7 @@ module.exports = React.createClass({
 	render: function(){
 		return(
 			<div className="wigout">
-			
+				<Charty />
 			</div>
 		)
 	},
