@@ -21,11 +21,13 @@ module.exports = React.createClass({
 	render: function(){
 		return(
 			<div className="pageCenter">
-				<video muted autoPlay id="bgvid" src="../../endless_planet.mp4"loop>
+				<video muted autoPlay id="bgvid" src="../../endless_planet.mp4" loop>
 				</video>
-				<div className="main"> 
-					<BizCard />
-					<Wigout />
+				<div className='container'>
+					<div className="main"> 
+						<BizCard />
+						<Wigout />
+					</div>
 				</div>
 			</div>
 		)
