@@ -11,7 +11,7 @@
 	display: flex;
 }
 .bizcard .content {
-	-webkit-box-flex: 54     /* OLD - iOS 6-, Safari 3.1-6 */
+	-webkit-box-flex: 4;     /* OLD - iOS 6-, Safari 3.1-6 */
 	-moz-box-flex: 4;        /* OLD - Firefox 19- */
 	-webkit-flex: 4;         /* For old syntax, otherwise collapses. */
 	-ms-flex: 4;             /* IE 10 */

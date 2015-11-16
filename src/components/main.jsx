@@ -23,11 +23,9 @@ module.exports = React.createClass({
 			<div className="pageCenter">
 				<video muted autoPlay id="bgvid" src="../../endless_planet.mp4" loop>
 				</video>
-				<div className='container'>
-					<div className="main"> 
-						<BizCard />
-						<Wigout />
-					</div>
+				<div className="main"> 
+					<BizCard />
+					<Wigout />
 				</div>
 			</div>
 		)
