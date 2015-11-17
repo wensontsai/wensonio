@@ -3,8 +3,9 @@
 var React = require('react');
 var _ = require('lodash');
 
-var d3Chart = require('./d3Chart');
+// var d3Chart = require('./d3Chart');
 
+var d3Chart = require('./d3Chart2');
 
 var Chart = React.createClass({
   getDefaultProps: function() {
