@@ -1,7 +1,7 @@
 var React = require('react');
 var Reflux = require('reflux');
 
-var Charty = require('./charty');
+// var Charty = require('./charty');
 
 var Actions = require('../actions');
 
