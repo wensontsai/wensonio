@@ -1,26 +1,51 @@
 .bizcard {
-	background-color: #FFF8DC;
-	text-align: center;
-	padding: 25px;
-	width: 700px;
-	height: 120px;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: relative;
-	border-radius: 20px;
+  background-color: #FFF8DC;
+  text-align: center;
+  padding: 15px;
+  width: 700px;
+  height: 125px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: table;
+  border-radius: 20px; }
+
+.bizcard .row.content{
+  background-color: #FFF8DC;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: table;
 }
+
+.bizcard .row.story {
+  font-size: 1.375rem;
+  float: left;
+  text-align: left;
+  padding: 15px 30px;
+  width: 100%;
+  height: 100%;
+}
+
 .bizcard .content {
-	-webkit-box-flex: 3;     /* OLD - iOS 6-, Safari 3.1-6 */
-	-moz-box-flex: 3;        /* OLD - Firefox 19- */
-	-webkit-flex: 3;         /* For old syntax, otherwise collapses. */
-	-ms-flex: 3;             /* IE 10 */
-	flex: 3;                 /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	text-align: left;
-	margin: auto 0;
-	display: relative;
-}
+  -webkit-box-flex: 3;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 3;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 3;
+  /* For old syntax, otherwise collapses. */
+  -ms-flex: 3;
+  /* IE 10 */
+  flex: 3;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  text-align: left;
+  margin: auto 0;
+  display: relative; }
 .bizcard .links {
 	-webkit-box-flex: 2;     /* OLD - iOS 6-, Safari 3.1-6 */
 	-moz-box-flex: 2;        /* OLD - Firefox 19- */
@@ -54,4 +79,37 @@
 }
 .big-icon {
     font-size: 22px;
+}
+
+
+@media (max-width: 700px) {
+	.bizcard {
+	  background-color: #FFF8DC;
+	  text-align: center;
+	  padding: 15px;
+	  width: 100%;
+	  height: 100%;
+	  max-height: 125px;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: table;
+	  border-radius: 20px; }
+}
+
+@media (max-width: 385px) {
+	.bizcard {
+	  background-color: #FFF8DC;
+	  text-align: center;
+	  padding: 15px;
+	  width: 100%;
+	  height: 100%;
+	  max-height: 350px;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: table;
+	  border-radius: 20px; }
 }
