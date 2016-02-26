@@ -67,3 +67,14 @@ a:hover{
   width: 100%;
 }
 
+
+@media (max-width: 700px) {
+  video { 
+    display: none;
+  }
+
+  body {
+    background-image: url("./endless_planet.jpg");
+    background-size: cover;
+  }
+}
