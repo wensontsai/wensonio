@@ -70,11 +70,12 @@
 .bizard .story a{
   background: none;
   padding: 0;
+  text-decoration: underline;
 }
 .bizcard .story a:focus,
 .bizcard .story a:hover{
   color: #D44942;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .bizcard .name {
 	font-weight: 900;
