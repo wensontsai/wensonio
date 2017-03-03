@@ -67,11 +67,14 @@
 	display: inline-block;
 	list-style-type: none;
 }
+.bizard .story a{
+  background: none;
+  padding: 0;
+}
+.bizcard .story a:focus,
 .bizcard .story a:hover{
   color: #D44942;
   text-decoration: none;
-  background: none;
-  padding: 0;
 }
 .bizcard .name {
 	font-weight: 900;
