@@ -67,6 +67,12 @@
 	display: inline-block;
 	list-style-type: none;
 }
+.bizcard .story a:hover{
+  color: #D44942;
+  text-decoration: none;
+  background: none;
+  padding: 0;
+}
 .bizcard .name {
 	font-weight: 900;
 	font-size: 2.5rem;
