@@ -1,7 +1,7 @@
 var React = require('react');
 var Reflux = require('reflux');
 var BizCard = require('./bizcard');
-var Wigout = require('./wigout');
+// var Wigout = require('./wigout');
 
 
 var Actions = require('../actions');
@@ -21,11 +21,13 @@ module.exports = React.createClass({
 	render: function(){
 		return(
 			<div className="pageCenter">
-				<video muted autoPlay id="bgvid" src="../../" loop>
+				<video muted autoPlay id="bgvid" src="../../endless_planet.mp4" loop>
 				</video>
 				<div className="main"> 
 					<BizCard />
-					<Wigout />
+				</div>
+				<div id="footer" className="credit">
+					Video courtesy of <a href="http://www.beeple-crap.com/" target="blank">Beeple</a> under Creative Commons License
 				</div>
 			</div>
 		)

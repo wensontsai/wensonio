@@ -58,4 +58,24 @@ a {
 a:hover{
   background:rgba(0,0,0,0.9);
 }
+.credit{
+  font-size: 0.75em;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
 
+
+@media (max-width: 700px) {
+  video { 
+    display: none;
+  }
+
+  body {
+    background-image: url("./endless_planet.jpg");
+    background-size: cover;
+  }
+}

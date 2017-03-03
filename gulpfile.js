@@ -62,7 +62,7 @@ gulp.task('serve', function(done) {
   gulp.src('')
     .pipe(server({
       livereload: {
-        enable: true,
+        enable: false,
         filter: function(filePath, cb) {
           if(/main.js/.test(filePath)) {
             cb(true)
