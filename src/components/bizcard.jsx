@@ -34,7 +34,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="row story">
 					<div className="story">
-					Wenson Tsai is a Fullstack Software Engineer and Musician who spends his most precious moments creating.  Whether building excitement and experiences through code, technology, songwriting, or performance, the focus always remains on next-level innovation and craftsmanship.  Previously, he worked in the music industry processing licenses for all the major players: Spotify, Apple, major music labels, etc. The software he built turned data into royalty checks for everyone whose music you have ever enjoyed.  In a previous life, he was a photographer who traveled and exhibited internationally.
+					Wenson Tsai is a Fullstack Software Engineer and Musician who spends his most precious moments creating.  Whether building excitement and experiences through code, product, technology, songwriting, or performance, the focus remains on next-level innovation and craftsmanship.  Previously, he worked in the music industry processing licenses and deals for all the major players: Spotify, Apple, major music labels, et al. The software he wrote turned data into royalty checks for everyone whose music you have ever enjoyed.  Presently, he writes the desktop app <i><a href="https://www.makerbot.com/print/">MakerBot Print</a></i> students, engineers, and makers around the world use to 3D-print dreams to life.  He also works on model-slicing and toolpathing algorithms to improve print quality and speed.  In another life, he was a <a href="https://www.flickr.com/photos/itswenson/">photographer</a> who traveled and exhibited internationally.
 					</div>
 				</div>
 			</div>
